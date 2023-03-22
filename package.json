@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.2.4",
+    "@cryptogate/react-providers": "^2.0.6",
+    "@cryptogate/react-ui": "^2.0.44",
+    "bootstrap": "^5.2.3",
+    "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "18.2.0",
+    "sass": "^1.59.3"
   },
   "devDependencies": {
     "eslint": "8.36.0",
