@@ -53,4 +53,51 @@
       padding-top: 20px;
     }
   }
+
+  .search-div {
+    position: relative;
+    background: rgba(50, 39, 145, 0.3);
+    border: 0.5px solid #322791;
+    border-radius: 10px;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    padding: 4px 12px;
+    .searchbar {
+      width: 300px;
+      background-color: transparent;
+      border: 0;
+    }
+    .Vector {
+      position: absolute;
+    }
+  }
+
+  .select-all {
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .page-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .label-rec {
+    color: #6d8bd5;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    padding-left: 35px;
+  }
 }

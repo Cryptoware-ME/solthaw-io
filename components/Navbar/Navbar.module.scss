@@ -4,3 +4,38 @@
   border-radius: 14px;
   width: 160px;
 }
+.second-row {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #322790;
+  padding: 12px 60px;
+}
+.first-row {
+  display: flex;
+  align-items: center;
+  background-color: rgba(50, 39, 144, 0.3);
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.col1 {
+ 
+  justify-content: left;
+  display: flex;
+}
+.col2 {
+
+  justify-content: center;
+  display: flex;
+}
+.col3 {
+ justify-content: flex-end;
+  display: flex;
+ 
+}

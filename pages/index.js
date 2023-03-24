@@ -2,11 +2,13 @@ import { Container } from "react-bootstrap";
 import Button from "../components/Button";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.scss";
+import Image from "next/image";
+import cryptoware from "../public/cryptoware.svg"
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Navbar />
+      <Navbar isLanding = {true}/>
       <Container>
         <div className={styles["hero-section"]}>
           <h1 className={`${styles.heading}`}>
@@ -21,6 +23,10 @@ export default function Home() {
           </Button>
         </div>
       </Container>
+      <div className={styles.footer} >
+
+      <Image  alt="icon" src={cryptoware}  />
+      </div>
     </div>
   );
 }
