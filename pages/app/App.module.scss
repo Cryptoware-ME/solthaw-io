@@ -64,9 +64,14 @@
     display: flex;
     padding: 4px 12px;
     .searchbar {
-      width: 300px;
+      max-width: 300px;
       background-color: transparent;
       border: 0;
+      outline: none !important;
+      color: white;
+    }
+    input::placeholder {
+      color: rgba(255, 255, 255, 0.5) !important;
     }
     .Vector {
       position: absolute;
@@ -99,5 +104,9 @@
     font-size: 20px;
     position: absolute;
     padding-left: 35px;
+  }
+
+  .mid-table {
+    padding-top: 1.5rem;
   }
 }

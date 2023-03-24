@@ -1,0 +1,37 @@
+.checkbox-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  position: relative;
+
+  .checkmark {
+    border: 2px solid rgba(109, 139, 213, 1);
+    border-radius: 5px;
+    &.active {
+      border: 2px solid rgba(109, 139, 213, 1);
+      border-radius: 5px;
+      background-color: red;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .checkmark {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  label {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #6d8bd5;
+    padding-left: 1rem;
+
+    @media (max-width: 576px) {
+      font-size: 16px;
+      padding-left: 0.5rem;
+    }
+  }
+}
